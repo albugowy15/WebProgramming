@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Display</title>
+	<style type="text/css">
+
+		.navigasilist li {
+			display: inline;
+			background-color: pink;
+		}
+
+		.navigasi a {
+			display: inline-block;
+			width: 50px;
+			height: 30px;
+			background-color: purple;
+		}
+
+		img {
+			display: none;
+		}
+
+		.copyright {
+			display: block;
+			background-color: lightgreen;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<h1>Selamat Datang di Website Kami</h1>
+	</div>
+	
+	<div class="navigasi">
+		<h2>Daftar Link</h2>
+		<a href="#">Link 1</a>
+		<a href="#">Link 2</a>
+		<a href="#">Link 3</a>
+		<a href="#">Link 4</a>
+		<a href="#">Link 5</a>
+	</div>
+
+	<div class="navigasilist">
+		<h2>List Link</h2>
+		<ul>
+			<li><a href="#">Link List 1</a></li>
+			<li><a href="#">Link List 2</a></li>
+			<li><a href="#">Link List 3</a></li>
+			<li><a href="#">Link List 4</a></li>
+		</ul>
+	</div>
+	
+	<div class="main">
+		<h2>Judul Artikel</h2>
+		<img src="logo.png">
+		<p>Sebenarnya disini ada gambar logo ITS, tapi dihilangkan dengan properti <i>display: none;</i></p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. <span>Duis aute irure</span> dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	
+	<div class="copyright">
+		<p class="copyright">Copyright 2021. Web Programming ITS</p>
+	</div>
+
+</body>
+</html>
